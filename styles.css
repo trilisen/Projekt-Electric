@@ -1,0 +1,83 @@
+:root {
+    background: white;
+    --main-color: #162133;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: var(--main-color);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px;
+    grid-template-areas: ". header-title hamburger";
+    color: white;
+}
+
+header .title {
+    grid-area: header-title;
+    align-self: center;
+    justify-self: center;
+    font-size: x-large;
+}
+
+.hamburger-menu {
+    grid-area: hamburger;
+    align-self: center;
+    justify-self: end;
+    margin-right: 20px;
+}
+
+.hamburger-menu img{
+    width: 30px;
+    height: 30px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "main-item1 main-item1 main-item1"
+    "main-item2 main-item2 main-item2"
+    "main-item3 main-item3 main-item3"
+    "gallery-item1 gallery-item2 gallery-item3";
+}
+
+main .main-item1 {
+    grid-area: main-item1;
+    background: yellow;
+}
+
+main .main-item2 {
+    grid-area: main-item2;
+    background: yellow;
+}
+
+main .main-item3 {
+    grid-area: main-item3;
+    background: yellow;
+}
+
+main .gallery-item1{
+    grid-area: gallery-item1;
+    background: violet;
+}
+
+.gallery-item1 .background {
+    background: none;
+}
+
+main .gallery-item2{
+    grid-area: gallery-item2;
+    background: violet;
+}
+
+main .gallery-item3{
+    grid-area: gallery-item3;
+    background: violet;
+}

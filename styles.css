@@ -16,7 +16,6 @@ header {
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas: '. header-title hamburger';
   color: var(--main-color);
-  position: sticky;
 }
 
 header .title {
@@ -41,6 +40,7 @@ header .title {
   margin: 6px 0;
 }
 
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -52,10 +52,34 @@ main {
   background: white;
 }
 
+.main-item h2 {
+  position: relative;
+  text-align: center;
+  font-style: italic;
+  font-size: 2rem;
+}
+
 .main-picture {
   width: 100%;
   height: 90vh;
   background: #747474;
+}
+
+.main-picture img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .main-picture {
+    height: auto;
+  }
+  .main-item {
+    height: 200px;
+    margin: 5px;
+  }
+  .main-item h2 {
+    font-size: 1rem;
+  }
 }
 
 .gallery-container {
@@ -74,6 +98,7 @@ main {
 
 .gallery-item {
   display: flex;
+  box-shadow: 10px 10px 12px 12px rgb(196, 197, 197);
   justify-content: center;
   align-items: center;
   background: black;
@@ -85,10 +110,19 @@ main {
 
 footer {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  background: black;
-  color: white;
+  background: white;
+  color: var(--main-color);
   font-family: 'Dosis', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .gallery-item {
+    box-shadow: 6px 6px 6px 6px rgb(196, 197, 197);
+  }
+  footer {
+    flex-direction: column;
+  }
 }

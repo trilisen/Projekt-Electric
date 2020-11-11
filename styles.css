@@ -1,94 +1,94 @@
 :root {
-    background: white;
-    --main-color: #162133;
+  background: white;
+  --main-color: #162133;
 }
 
 body {
-    font-family: Helvetica, sans-serif;
-    margin: 0;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
 }
 
 header {
-    width: 100%;
-    height: 100px;
-    background: white;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px;
-    grid-template-areas: ". header-title hamburger";
-    color: var(--main-color);
+  width: 100%;
+  align-items: center;
+  background: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: '. header-title hamburger';
+  color: var(--main-color);
+  position: sticky;
 }
 
 header .title {
-    grid-area: header-title;
-    align-self: center;
-    justify-self: center;
-    font-size: 2rem;
-    font-family: 'Dosis', sans-serif;
+  grid-area: header-title;
+  align-self: center;
+  justify-self: center;
+  font-size: 5vh;
+  font-family: 'Dosis', sans-serif;
 }
 
 .hamburger-menu {
-    grid-area: hamburger;
-    align-self: center;
-    justify-self: end;
-    margin-right: 20px;
+  grid-area: hamburger;
+  align-self: center;
+  justify-self: end;
+  margin-right: 20px;
 }
 
-.hamburger-menu div{
-        width: 35px;
-        height: 5px;
-        background-color: var(--main-color);
-        margin: 6px 0;
+.hamburger-menu div {
+  width: 35px;
+  height: 5px;
+  background-color: var(--main-color);
+  margin: 6px 0;
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .main-item {
-    width: 100%;
-    height: 90vh;
-    background: white;
+  width: 100%;
+  height: 90vh;
+  background: white;
 }
 
 .main-picture {
-    width: 100%;
-    height: 90vh;
-    background: #747474;
+  width: 100%;
+  height: 90vh;
+  background: #747474;
 }
 
 .gallery-container {
-    display: grid;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 @media only screen and (max-width: 600px) {
-    .gallery-container {
-      grid-template-columns: repeat(1, 1fr);
-    }
+  .gallery-container {
+    grid-template-columns: repeat(1, 1fr);
   }
+}
 
 .gallery-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: black;
-    color: white;
-    margin: 1rem;
-    padding-top: 70%;
-    border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+  margin: 1rem;
+  padding-top: 70%;
+  border-radius: 50%;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: black;
-    color: white;
-    font-family: 'Dosis', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+  font-family: 'Dosis', sans-serif;
 }

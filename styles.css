@@ -10,19 +10,20 @@ body {
 header {
     width: 100%;
     height: 100px;
-    background: var(--main-color);
+    background: white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px;
     grid-template-areas: ". header-title hamburger";
-    color: white;
+    color: var(--main-color);
 }
 
 header .title {
     grid-area: header-title;
     align-self: center;
     justify-self: center;
-    font-size: x-large;
+    font-size: 2rem;
+    font-family: 'Dosis', sans-serif;
 }
 
 .hamburger-menu {
@@ -32,9 +33,11 @@ header .title {
     margin-right: 20px;
 }
 
-.hamburger-menu img{
-    width: 30px;
-    height: 30px;
+.hamburger-menu div{
+        width: 35px;
+        height: 5px;
+        background-color: var(--main-color);
+        margin: 6px 0;
 }
 
 main {

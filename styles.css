@@ -38,46 +38,18 @@ header .title {
 }
 
 main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "main-item1 main-item1 main-item1"
-    "main-item2 main-item2 main-item2"
-    "main-item3 main-item3 main-item3"
-    "gallery-item1 gallery-item2 gallery-item3";
+    display: flex;
+    flex-wrap: wrap;
 }
 
-main .main-item1 {
-    grid-area: main-item1;
-    background: yellow;
+.main-item {
+    width: 100%;
+    height: 90vh;
+    background: white;
 }
 
-main .main-item2 {
-    grid-area: main-item2;
-    background: yellow;
-}
-
-main .main-item3 {
-    grid-area: main-item3;
-    background: yellow;
-}
-
-main .gallery-item1{
-    grid-area: gallery-item1;
-    background: violet;
-}
-
-.gallery-item1 .background {
-    background: none;
-}
-
-main .gallery-item2{
-    grid-area: gallery-item2;
-    background: violet;
-}
-
-main .gallery-item3{
-    grid-area: gallery-item3;
-    background: violet;
+.main-picture {
+    width: 100%;
+    height: 90vh;
+    background: #747474;
 }

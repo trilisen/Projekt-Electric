@@ -1,5 +1,3 @@
 # Projekt-Electric
 
-Se är du med???
-
-YEAAHAHHHH
+Figma project link: https://www.figma.com/file/koyfSVNltbguO1xkwwc745/Project-Electric?node-id=1%3A16

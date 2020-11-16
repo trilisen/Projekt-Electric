@@ -59,19 +59,26 @@ main {
   font-size: 2rem;
 }
 
+/* Change the background to instead use a different background for every class.*/
 .main-picture {
   width: 100%;
   height: 90vh;
-  background: #747474;
+  background: url(/img/test.png) #999999;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.main-picture img {
-  width: 100%;
+.main-picture h2 {
+  font-size: 2rem;
 }
 
 @media only screen and (max-width: 1000px) {
   .main-picture {
-    height: auto;
+    height: 200px;
+  }
+  .main-picture h2 {
+    font-size: 1rem;
   }
   .main-item {
     height: 200px;
@@ -80,20 +87,16 @@ main {
   .main-item h2 {
     font-size: 1rem;
   }
+
 }
 
 .gallery-container {
-  display: grid;
+  margin: 30% 0 30% 0;
   width: 100%;
+  display: grid;
   align-items: center;
   justify-content: center;
   grid-template-columns: repeat(3, 1fr);
-}
-
-@media only screen and (max-width: 600px) {
-  .gallery-container {
-    grid-template-columns: repeat(1, 1fr);
-  }
 }
 
 .gallery-item {
@@ -101,11 +104,22 @@ main {
   box-shadow: 10px 10px 12px 12px rgb(196, 197, 197);
   justify-content: center;
   align-items: center;
-  background: black;
-  color: white;
+  background: url(/img/test.png);
+  background-position: 50% 50%;
+  color: black;
+  background-size: cover;
   margin: 1rem;
-  padding-top: 70%;
   border-radius: 50%;
+  height: 31vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .gallery-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .gallery-item {
+    height: 90vw;
+  }
 }
 
 footer {

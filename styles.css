@@ -6,6 +6,7 @@
 body {
   font-family: Helvetica, sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 header {
@@ -60,35 +61,96 @@ main {
 }
 
 /* Change the background to instead use a different background for every class.*/
+
 .main-picture {
-  width: 100%;
-  height: 90vh;
   background: url(/img/test.png) #999999;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.main-picture,.colors-of-bike {
+  width: 100%;
+  height: 90vh;
+}
+
+.colors-of-bike {
+  position: relative;
+}
+
 .main-picture h2 {
   font-size: 2rem;
 }
 
-@media only screen and (max-width: 1000px) {
-  .main-picture {
-    height: 200px;
-  }
-  .main-picture h2 {
-    font-size: 1rem;
-  }
-  .main-item {
-    height: 200px;
-    margin: 5px;
-  }
-  .main-item h2 {
-    font-size: 1rem;
-  }
-
+.background-blue {
+  height: inherit;
+  width: inherit;
+  display: none;
+  background: url(/img/mörkblå\ lc\ 1.png) #999999;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.background-blue.on {
+  display: block;
+}
+
+.background-pink {
+  height: inherit;
+  width: inherit;
+  display: none;
+  background: url(/img/rosa\ lc\ 1.png) #999999;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-pink.on {
+  display: block;
+}
+
+.background-white {
+  height: inherit;
+  width: inherit;
+  display: none;
+  background: url(/img/vit\ lc\ 1.png) #999999;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-white.on {
+  display: block;
+}
+
+.color-nav {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 5px;
+}
+
+.color-nav .dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 9999999px;
+  margin: 10px;
+}
+
+.dot.blue {
+  background: #161A2F;
+}
+
+.dot.pink {
+  background: pink;
+}
+
+.dot.white {
+  background: white;
+}
+
 
 .gallery-container {
   margin: 30% 0 30% 0;
@@ -113,15 +175,6 @@ main {
   height: 31vw;
 }
 
-@media only screen and (max-width: 600px) {
-  .gallery-container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .gallery-item {
-    height: 90vw;
-  }
-}
-
 footer {
   display: flex;
   flex-direction: row;
@@ -130,13 +183,4 @@ footer {
   background: white;
   color: var(--main-color);
   font-family: 'Dosis', sans-serif;
-}
-
-@media only screen and (max-width: 600px) {
-  .gallery-item {
-    box-shadow: 6px 6px 6px 6px rgb(196, 197, 197);
-  }
-  footer {
-    flex-direction: column;
-  }
 }

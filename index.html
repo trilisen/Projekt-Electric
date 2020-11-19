@@ -1,90 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="media.css">
-    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projekt Electric</title>
-    <link rel="shortcut icon" href="/img/Project Electric Logo Pink.png" type="image/x-icon">
-</head>
-<body>
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon" />
+  </head>
+  <body>
     <header>
-        <img src="/img/Project Electric Logo.png" alt="Logo">
-        <h1 class="title">ELECTRIC</h1>
-        <nav class="hamburger-menu">
-            <div></div>
-            <div></div>
-            <div></div>
-        </nav>
+      <img src="/img/logo.png" alt="Logo" />
+      <h1 class="title">ELECTRIC</h1>
+      <nav class="hamburger-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </nav>
     </header>
     <main>
-        <article class="main-picture">
-            <h2>Main pictures</h2>
+      <article class="main-picture first">
+        <h2>Main pictures</h2>
+      </article>
+      <article class="main-item">
+        <form action="/" method="get">
+          <input
+            placeholder="Type your email"
+            type="email"
+            name="email"
+            id="email"
+          />
+          <input type="submit" value="submit" />
+        </form>
+        <h2>Quote/information area</h2>
+      </article>
+      <article class="colors-of-bike">
+        <div class="background-white on"></div>
+        <div class="background-blue"></div>
+        <div class="background-pink"></div>
+        <div class="color-nav">
+          <div class="dot white" onclick="changeColor('white')"></div>
+          <div class="dot pink" onclick="changeColor('pink')"></div>
+          <div class="dot blue" onclick="changeColor('blue')"></div>
+        </div>
+      </article>
+      <article class="main-item">
+        <h2>Quote/information area</h2>
+      </article>
+      <article class="main-picture icons">
+        <h2>Information about the bike, icons</h2>
+      </article>
+      <article class="main-item">
+        <h2>Quote/information area</h2>
+      </article>
+      <article class="main-picture cta">
+        <h2>Extra image/ maybe call to action?</h2>
+      </article>
+      <section class="gallery-container">
+        <article class="gallery-item">
+          <h2>Title</h2>
         </article>
-        <article class="main-item">
-            <form action="/" method="get">
-                <input placeholder="Type your email" type="email" name="email" id="email">
-                <input type="submit" value="submit">
-            </form>
-            <h2>Quote/information area</h2>
+        <article class="gallery-item">
+          <h2>Title</h2>
         </article>
-        <article class="colors-of-bike">
-            <div class="background-white on"></div>
-            <div class="background-blue"></div>
-            <div class="background-pink"></div>
-            <div class="color-nav">
-                <div class="dot white" onclick="changeColor('white')"></div>
-                <div class="dot pink" onclick="changeColor('pink')"></div>
-                <div class="dot blue" onclick="changeColor('blue')"></div>
-            </div>
+        <article class="gallery-item">
+          <h2>Title</h2>
         </article>
-        <article class="main-item">
-            <h2>Quote/information area</h2>
-        </article>
-        <article class="main-picture">
-            <h2>Information about the bike, icons</h2>
-        </article>
-        <article class="main-item">
-            <h2>Quote/information area</h2>
-        </article>
-        <article class="main-picture">
-            <h2>Extra image/ maybe call to action?</h2>
-        </article>
-        <section class="gallery-container">
-            <article class="gallery-item">
-                <h2>Title</h2>
-            </article>
-            <article class="gallery-item">
-                <h2>Title</h2>
-            </article>
-            <article class="gallery-item">
-                <h2>Title</h2>
-            </article>
-        </section>
+      </section>
     </main>
     <form action="/" method="get">
-        <input placeholder="Type your email" type="email" name="email" id="email">
-        <input type="submit" value="submit">
+      <input
+        placeholder="Type your email"
+        type="email"
+        name="email"
+        id="email"
+      />
+      <input type="submit" value="submit" />
     </form>
     <footer>
-        <div class="footer-item">
-            <h3>Instagram</h3>
-        </div>
-        <div class="footer-item">
-            <h3>Facebook</h3>
-        </div>
-        <div class="footer-item">
-            <h3>Twitter</h3>
-        </div>
-        <div class="footer-item">
-            <h3>Tiktok</h3>
-        </div>
-        <div class="footer-item">
-            <h3>Patreon</h3>
-        </div>
+      <div class="footer-item">
+        <h3>Instagram</h3>
+      </div>
+      <div class="footer-item">
+        <h3>Facebook</h3>
+      </div>
+      <div class="footer-item">
+        <h3>Twitter</h3>
+      </div>
+      <div class="footer-item">
+        <h3>Tiktok</h3>
+      </div>
+      <div class="footer-item">
+        <h3>Patreon</h3>
+      </div>
     </footer>
-</body>
-<script src="/script.js"></script>
+  </body>
+  <script src="/script.js"></script>
 </html>

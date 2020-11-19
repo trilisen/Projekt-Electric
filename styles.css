@@ -48,7 +48,6 @@ header .title {
   margin: 6px 0;
 }
 
-
 main {
   display: flex;
   flex-wrap: wrap;
@@ -56,7 +55,7 @@ main {
 
 .main-item {
   width: 100%;
-  height: 90vh;
+  height: 50vw;
   background: white;
 }
 
@@ -69,16 +68,10 @@ main {
 
 /* Change the background to instead use a different background for every class.*/
 
-.main-picture {
-  background: url(/img/test.png) #999999;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.main-picture,.colors-of-bike {
+.main-picture,
+.colors-of-bike {
   width: 100%;
-  height: 90vh;
+  height: 50vw;
 }
 
 .colors-of-bike {
@@ -94,6 +87,27 @@ main {
   width: inherit;
   display: none;
   background: url(/img/mörkblå\ lc\ 1.png) #999999;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-picture.first {
+  background: url(/img/1.png) #999999;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-picture.icons {
+  background: url(/img/2.png) #999999;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-picture.cta {
+  background: url(/img/4.png) #999999;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -147,7 +161,7 @@ main {
 }
 
 .dot.blue {
-  background: #161A2F;
+  background: #161a2f;
 }
 
 .dot.pink {
@@ -157,7 +171,6 @@ main {
 .dot.white {
   background: white;
 }
-
 
 .gallery-container {
   margin: 5% 0 5% 0;

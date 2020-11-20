@@ -53,6 +53,7 @@ The release of this fictitious vehicle was based off of a famous, French automot
 - [Jon McGarvie](https://github.com/trilisen)
 - [Rikard Segerkvist](https://github.com/rikardseg/)
 
+<br>
 
 <i>Computer Graphics:</i>
 - David Larsson

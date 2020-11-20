@@ -10,7 +10,7 @@ Our web development class had a group assignment together with the computer grap
 Our job was to create a front-end landing page for a futuristic, fictional vehicle called 'The Light Cycle'.<br>
 Computer graphics on the other hand had the assignment to recreate the vehicle through digital product visualization techniques.
 <br><br>
-The release of this fictitious vehicle was based off of a famous, French automotive manufacturer. The instructions were also vision based, wanting the result to: 'breathe design, modernity, tech and innovation.'
+The release of this fictitious vehicle was based off of a famous, French automotive manufacturer. The instructions were also vision based, wanting the result to: 'exude design, modernity, tech and innovation.'
 
 
 ## Coding languages

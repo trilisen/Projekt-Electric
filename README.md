@@ -57,8 +57,10 @@ The release of this fictitious vehicle was based off of a famous, French automot
 - [Dante Mogrim](https://github.com/mogrim-91)
 - [Jon McGarvie](https://github.com/trilisen)
 - [Rikard Segerkvist](https://github.com/rikardseg/)
+
   <br>
-  <i>Computer Graphics:</i>
+
+<i>Computer Graphics:</i>
 - David Larsson
 - Fanny Dolleus Nowicki
 - Mia Granulic

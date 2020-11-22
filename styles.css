@@ -16,6 +16,7 @@ header {
   align-items: center;
   background: white;
   display: grid;
+  height: 90px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas: 'img header-title hamburger';
   color: var(--main-color);
@@ -32,7 +33,7 @@ header .title {
   grid-area: header-title;
   align-self: center;
   justify-self: center;
-  font-size: 5vh;
+  font-size: 36px;
   font-family: 'Dosis', sans-serif;
 }
 
@@ -138,6 +139,7 @@ main {
 }
 
 .main-picture.first {
+  margin-top: 90px;
   background: url(/img/1.png) #999999;
   background-position: 50% 50%;
   background-repeat: no-repeat;

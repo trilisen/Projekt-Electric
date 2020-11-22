@@ -48,6 +48,41 @@ header .title {
   margin: 6px 0;
 }
 
+.menu-container {
+  display: none;
+  flex-direction: column;
+  font-family: 'Dosis', sans-serif;
+  width: 13vw;
+  height: 40%;
+  justify-content: space-between;
+  align-items: left;
+  padding: 20px;
+  background-color: #162133;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 6px;
+}
+
+.menu-container span {
+font-size: 2rem;
+width: 100%;
+margin-right: 20%;
+color: white;
+display: flex;
+justify-content: flex-end;
+}
+
+.menu-container a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.menu-container.on{
+display: flex;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;

@@ -13,10 +13,17 @@
     <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon" />
   </head>
   <body>
+    <div class="menu-container on" onclick="hamburgerToggle()">
+      <span>X</span>
+      <a href="#color-options">Color options</a>
+      <a href="#merchandise">Merchandise</a>
+      <a href="#company-info">Company info</a>
+      <a href="#links" >Links</a>
+    </div>
     <header>
       <img src="/img/logo.png" alt="Logo" />
       <h1 class="title">ELECTRIC</h1>
-      <nav class="hamburger-menu">
+      <nav class="hamburger-menu" onclick="hamburgerToggle()">
         <div></div>
         <div></div>
         <div></div>
@@ -38,7 +45,7 @@
         </form>
         <h2>Quote/information area</h2>
       </article>
-      <article class="colors-of-bike">
+      <article id="color-options" class="colors-of-bike">
         <div class="background-white on"></div>
         <div class="background-blue"></div>
         <div class="background-pink"></div>
@@ -54,13 +61,13 @@
       <article class="main-picture icons">
         <h2>Information about the bike, icons</h2>
       </article>
-      <article class="main-item">
+      <article id="company-info" class="main-item">
         <h2>Quote/information area</h2>
       </article>
       <article class="main-picture cta">
         <h2>Extra image/ maybe call to action?</h2>
       </article>
-      <section class="gallery-container">
+      <section id="merchandise" class="gallery-container">
         <article class="gallery-item">
           <h2>Title</h2>
         </article>
@@ -81,7 +88,7 @@
       />
       <input type="submit" value="submit" />
     </form>
-    <footer>
+    <footer id="links">
       <div class="footer-item">
         <h3>Instagram</h3>
       </div>

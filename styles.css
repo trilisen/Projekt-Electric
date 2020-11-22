@@ -10,6 +10,8 @@ body {
 }
 
 header {
+  position: fixed;
+  z-index: 1;
   width: 100%;
   align-items: center;
   background: white;
@@ -49,19 +51,26 @@ header .title {
 }
 
 .menu-container {
+  z-index: 2;
   display: none;
   flex-direction: column;
   font-family: 'Dosis', sans-serif;
   width: 13vw;
   height: 40%;
-  justify-content: space-between;
   align-items: left;
   padding: 20px;
   background-color: #162133;
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 20px;
   border-radius: 6px;
+}
+
+.menu-container .link-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-evenly;
 }
 
 .menu-container span {
@@ -71,6 +80,7 @@ margin-right: 20%;
 color: white;
 display: flex;
 justify-content: flex-end;
+user-select: none;
 }
 
 .menu-container a {

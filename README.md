@@ -58,7 +58,6 @@ The release of this fictitious vehicle was based off of a famous, French automot
 <i>Computer Graphics:</i>
 - David Larsson
 - Fanny Dolleus Nowicki
-- Mia Granulic
 
 
 ## License

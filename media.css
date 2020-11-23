@@ -41,6 +41,7 @@
     top: 0;
     right: 0;
     align-items: center;
+    border-radius: 0;
   }
   .menu-container span {
     font-size: 2rem;
@@ -48,6 +49,9 @@
   }
   .menu-container a {
     font-size: 1.6rem;
+  }
+  .menu-container .link-container {
+    justify-content: space-evenly;
   }
   .gallery-container {
     grid-template-columns: repeat(1, 1fr);

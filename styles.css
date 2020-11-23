@@ -71,7 +71,8 @@ header .title {
   display: flex;
   flex-direction: column;
   flex: 1;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin: 10px;
 }
 
 .menu-container span {

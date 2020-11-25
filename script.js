@@ -43,7 +43,7 @@ function changePage() {
             page--;
             rightArrow.classList.add('on');
         };
-    });
+    });//
     
 }
 

@@ -140,6 +140,16 @@ main {
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.main-picture.first h2 {
+  padding-bottom: 12%;
+  font-size: 2rem;
+  position: absolute;
+  color: white;
+  font-family: 'Dosis';
+  text-shadow: -1px 0 black;
 }
 
 .arrow {
@@ -260,6 +270,19 @@ main {
 
 .dot.white {
   background: white;
+}
+
+#company-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#company-info h2{
+  position: absolute;
+  top: 0;
 }
 
 .gallery-container {

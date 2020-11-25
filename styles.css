@@ -3,6 +3,11 @@
   --main-color: #162133;
 }
 
+@font-face {
+  font-family: 'Dosis';
+  src: url('Dosis-Regular.woff') format('woff');
+}
+
 body {
   font-family: Helvetica, sans-serif;
   margin: 0;
@@ -76,13 +81,13 @@ header .title {
 }
 
 .menu-container span {
-font-size: 2rem;
-width: 100%;
-margin-right: 20%;
-color: white;
-display: flex;
-justify-content: flex-end;
-user-select: none;
+  font-size: 2rem;
+  width: 100%;
+  margin-right: 20%;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  user-select: none;
 }
 
 .menu-container a {
@@ -92,7 +97,7 @@ user-select: none;
 }
 
 .menu-container.on{
-display: flex;
+  display: flex;
 }
 
 main {
@@ -129,26 +134,16 @@ main {
   font-size: 2rem;
 }
 
-.background-blue {
-  height: inherit;
-  width: inherit;
-  display: none;
-  background: url(/img/mörkblå\ lc\ 1.png) #999999;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .main-picture.first {
   margin-top: 90px;
-  background: url(/img/1.png) #999999;
+  background: url(bilder/converted/insida\ lightcycle\ dashboarden.webp) white;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .main-picture.icons {
-  background: url(/img/2.png) #999999;
+  background: url(bilder/converted/lightcycleoverlay.webp) #999999;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -156,6 +151,16 @@ main {
 
 .main-picture.cta {
   background: url(/img/4.png) #999999;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-blue {
+  height: inherit;
+  width: inherit;
+  display: none;
+  background: url(bilder/converted/mörkblå\ lightc\ grå.webp) #999999;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -169,7 +174,7 @@ main {
   height: inherit;
   width: inherit;
   display: none;
-  background: url(/img/rosa\ lc\ 1.png) #999999;
+  background: url(bilder/converted/rosa\ lightc\ grå.webp) #999999;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -183,7 +188,7 @@ main {
   height: inherit;
   width: inherit;
   display: none;
-  background: url(/img/vit\ lc\ 1.png) #999999;
+  background: url(bilder/converted/vit\ lightc\ grå.webp) #999999;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;

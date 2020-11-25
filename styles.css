@@ -8,10 +8,37 @@
   src: url('fonts/Dosis-Regular.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Helvetica';
+  src: url('fonts/Helvetica.woff') format('woff');
+}
+
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Helvetica';
   margin: 0;
   padding: 0;
+}
+
+form input[type=email]{
+  height: 20px;
+  width: 30vw;
+  background: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+form input[type=email]:focus {
+  /* remove the border ?? like bruH */
+}
+
+form input[type=submit]{
+  height: 40px;
+  width: 7vw;
+  border: none;
+  border-radius: 30px;
+  background: white;
 }
 
 header {
@@ -118,7 +145,20 @@ main {
   font-size: 2rem;
 }
 
-/* Change the background to instead use a different background for every class.*/
+.main-item.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-item form input[type=email]{
+  border: inset var(--main-color) .5px;
+}
+
+.main-item form input[type=submit]{
+  border: inset var(--main-color) .5px;
+}
 
 .main-picture,
 .colors-of-bike {
@@ -283,6 +323,26 @@ main {
 #company-info h2{
   position: absolute;
   top: 0;
+}
+
+.main-picture.cta {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.main-picture.cta form {
+  padding-top: 3%;
+  position: absolute;
+  top: 0;
+}
+
+.main-picture.cta form input[type=email]{
+  box-shadow: 0 0 20px #FFAAE3;
+}
+
+.main-picture.cta form input[type=submit]{
+  box-shadow: 0 0 20px #FFAAE3;
 }
 
 .gallery-container {

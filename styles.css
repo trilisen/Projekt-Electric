@@ -154,11 +154,11 @@ main {
 
 .arrow {
   position: absolute;
-  background: url(img/right-arrow-1438234-1216195.webp);
-  background-size: cover;
-  width: 100px;
-  height: 100px;
-  border: white 1px solid;
+  background: url(img/Subtract.png);
+  background-size: contain;
+  width: 5%;
+  height: 20%;
+  background-repeat: no-repeat;
 }
 
 .arrow.left {

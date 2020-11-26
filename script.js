@@ -23,10 +23,14 @@ function changePage() {
         const rightArrow = document.querySelector('.arrow.right');
         if (page === 0){
             background.style.cssText = 'background: url(img/cropped3.jpg) white; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover';
+            background.role ="img";
+            background.setAttribute('aria-label', "A white futuristic motorcycle with cyan neon details. A happy man in a business suit is standing to the right of it");
             page++;
             leftArrow.classList.add('on');
         }else if (page === 1){
             background.style.cssText = 'background: url(img/cropped2.png) white; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover';
+            background.role="img";
+            background.setAttribute('aria-label', "Futuristic, pink motorcycle in a traffic tunnel.");
             page++;
             rightArrow.classList.remove('on');
         }
@@ -36,11 +40,15 @@ function changePage() {
         const rightArrow = document.querySelector('.arrow.right');
         if (page === 1){
             background.style.cssText = 'background: url(img/cropped1.png) white; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover';
+            background.role="img";
+            background.setAttribute('aria-label', "A futuristic, white motorcycle with neon details in a sunny, modern, inner city environment.");
             page--;
             e.target.classList.remove('on');
         };
         if (page === 2){
             background.style.cssText = 'background: url(img/cropped3.jpg) white; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover';
+            background.role="img";
+            background.setAttribute('aria-label', "A white futuristic motorcycle with cyan neon details. A happy man in a business suit is standing to the right of it");
             page--;
             rightArrow.classList.add('on');
         };

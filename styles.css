@@ -256,6 +256,7 @@ main {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 70vw;
 }
 
 .background-blue {

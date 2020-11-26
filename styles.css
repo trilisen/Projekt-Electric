@@ -203,7 +203,7 @@ main {
 
 .main-item {
   width: 100%;
-  height: 50vw;
+  height: 45vw;
   background: white;
 }
 
@@ -326,17 +326,37 @@ main {
   background: white;
 }
 
-#company-info {
+.main-item#company-info .info-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+.icon-descriptions {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 20px;
 }
 
-#company-info h2{
-  position: absolute;
-  top: 0;
+.icon-descriptions .icon{
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.icon-descriptions .icon img{
+  width: 5vw;
+  height: 5vw;
+  margin-right: 5vw;
+}
+
+.main-item.icon-descriptions {
+  height: auto;
 }
 
 .main-picture.cta {
@@ -353,6 +373,7 @@ main {
 
 .main-picture.cta form label {
   color: white;
+  text-shadow: -1px 0 black;
 }
 
 .main-picture.cta form input[type=email]{

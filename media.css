@@ -24,10 +24,21 @@
   .main-item h2 {
     font-size: 1rem;
   }
+  .color-nav {
+    flex-direction: column;
+  }
   .color-nav .dot {
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 30px;
     margin: 5px;
+  }
+  .main-item#company-info {
+    height: auto;
+  }
+  .icon-descriptions .icon img {
+    width: 15vw;
+    height: 15vw;
+    margin-right: 10vw;
   }
 }
 
@@ -66,6 +77,10 @@
   .main-item.first .mobile {
     display: block;
   }
+  .color-nav .dot {
+    width: 20px;
+    height: 20px;
+  }
   .main-picture.cta {
     position: relative;
   }
@@ -74,6 +89,7 @@
     top: 100%;
   }
   .main-picture.cta form label {
+    text-shadow: none;
     color: black;
   }
   .main-picture.cta form input[type=email]{

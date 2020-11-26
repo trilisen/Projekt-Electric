@@ -29,10 +29,6 @@ form input[type=email]{
   margin-right: 20px;
 }
 
-form input[type=email]:focus {
-  /* remove the border ?? like bruH */
-}
-
 form input[type=submit]{
   height: 40px;
   width: 7vw;

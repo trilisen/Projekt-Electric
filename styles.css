@@ -326,6 +326,10 @@ main {
   background: white;
 }
 
+.main-item#company-info h2{
+  font-family: 'Dosis';
+}
+
 .main-item#company-info .info-container{
   display: flex;
   flex-direction: column;

@@ -168,7 +168,7 @@ main {
 
 .arrow {
   position: absolute;
-  background: url(img/Subtract.png);
+  background: url(img/arrow.png);
   background-size: contain;
   width: 5%;
   height: 20%;
@@ -197,7 +197,7 @@ main {
 .first-picture {
   width: 100%;
   height: 100%;
-  background: url(img/cropped1.png) white;
+  background: url(img/gothenburg.webp) white;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -245,14 +245,14 @@ main {
 .main-picture.icons {
   width: 100%;
   height: 50vw;
-  background: url(bilder/converted/lightcycleoverlay.webp) white;
+  background: url(img/lightcycleoverlay.webp) white;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .main-picture.cta {
-  background: url(bilder/insida\ lightcycle\ dashboarden.png) white;
+  background: url(img/inside.webp) white;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -263,7 +263,7 @@ main {
   height: inherit;
   width: inherit;
   display: none;
-  background: url(bilder/converted/mörkblå\ lightc\ grå.webp) #999999;
+  background: url(img/darkblue.webp) #999999;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -277,7 +277,7 @@ main {
   height: inherit;
   width: inherit;
   display: none;
-  background: url(bilder/converted/rosa\ lightc\ grå.webp) #999999;
+  background: url(img/pink.webp) #999999;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -291,7 +291,7 @@ main {
   height: inherit;
   width: inherit;
   display: none;
-  background: url(bilder/converted/vit\ lightc\ grå.webp) #999999;
+  background: url(img/white.webp) #999999;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -425,29 +425,26 @@ main {
   box-shadow: 10px 10px 12px 12px rgb(196, 197, 197);
   justify-content: center;
   align-items: center;
-  background: url(/img/test.png);
-  background-position: 50% 50%;
   color: black;
-  background-size: cover;
   margin: 1rem;
   border-radius: 50%;
   height: 31vw;
 }
 
 .gallery-item.first {
-  background: url(/img/laddarelight.png);
+  background: url(img/charger.webp);
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .gallery-item.second {
-  background: url(/img/takeaway-muggar-lclogga.png);
+  background: url(img/cups.webp);
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .gallery-item.third {
-  background: url(/img/mobilhållare-till-bil.png);
+  background: url(img/phone.webp);
   background-position: 50% 50%;
   background-size: cover;
 }

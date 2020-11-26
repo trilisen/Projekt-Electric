@@ -54,20 +54,22 @@
         <div class="background-blue"></div>
         <div class="background-pink"></div>
         <div class="color-nav">
-          <div class="dot white" onclick="changeColor('white')"></div>
-          <div class="dot pink" onclick="changeColor('pink')"></div>
-          <div class="dot blue" onclick="changeColor('blue')"></div>
+          <div 
+            class="dot white" 
+            onclick="changeColor('white')"
+          ></div>
+          <div 
+            class="dot pink" 
+            onclick="changeColor('pink')"
+          ></div>
+          <div 
+            class="dot blue" 
+            onclick="changeColor('blue')"
+          ></div>
         </div>
       </article>
-      <article id="company-info" class="main-item">
-        <h2>Company info</h2>
-        <div class="info-container">
-          <p>Company name: Electric</p>
-          <p>Address: Lindholmen</p>
-          <p>City: Gothenburg, Sweden</p>
-          <p>Phone number: 1238001100</p>
-          <p>Email: connect@electric.se</p>
-        </div>
+      <article class="main-item quote">
+        <h2>BIG QUOTE</h2>
       </article>
       <article class="main-picture icons">
       </article>
@@ -100,14 +102,26 @@
       <article class="main-picture cta">
         <form action="/" method="get">
           <label for="email">To sign up, please:</label>
-          <input
-            placeholder="Type your email"
-            type="email"
-            name="email"
-            id="email"
-          />
-          <input type="submit" value="Submit" />
+          <div class="input-container">
+            <input
+              placeholder="Type your email"
+              type="email"
+              name="email"
+              id="email"
+            />
+            <input type="submit" value="Submit" />
+          </div>
         </form>
+      </article>
+      <article id="company-info" class="main-item">
+        <h2>Company info</h2>
+        <div class="info-container">
+          <p>Company name: Electric</p>
+          <p>Address: Lindholmen</p>
+          <p>City: Gothenburg, Sweden</p>
+          <p>Phone number: 1238001100</p>
+          <p>Email: connect@electric.se</p>
+        </div>
       </article>
       <section id="merchandise" class="gallery-container">
         <article class="gallery-item">

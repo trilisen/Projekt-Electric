@@ -373,9 +373,18 @@ main {
 }
 
 .main-picture.cta form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
   padding-top: 3%;
   position: absolute;
   top: 0;
+}
+
+.main-picture.cta form .input-container {
+  margin: 10px;
+  display: flex;
 }
 
 .main-picture.cta form label {

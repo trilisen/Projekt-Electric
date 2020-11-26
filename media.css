@@ -38,6 +38,10 @@
   .main-picture.cta form input[type=submit]{
     width: 20%;
   }
+  .main-item#company-info h2{
+    font-family: 'Dosis';
+    font-size: 2.5rem;
+  }
   .main-item#company-info {
     height: auto;
   }
@@ -48,6 +52,9 @@
     width: 15vw;
     height: 15vw;
     margin-right: 10vw;
+  }
+  .merch-title {
+    font-size: 2.5rem;
   }
 }
 
@@ -114,8 +121,15 @@
     border: inset var(--main-color) .5px;
     box-shadow: none;
   }
+  .main-item#company-info h2{
+    font-family: 'Dosis';
+    font-size: 2.5rem;
+  }
   .main-item#company-info {
-    margin-top: 20vw;
+    margin-top: 25vw;
+  }
+  .merch-title {
+    font-size: 2.5rem;
   }
   .gallery-container {
     grid-template-columns: repeat(1, 1fr);
@@ -128,6 +142,9 @@
   }
   footer {
     flex-direction: column;
+  }
+  .merch-title {
+    padding-top: 25%;
   }
 }
 

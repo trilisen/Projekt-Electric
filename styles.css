@@ -138,6 +138,12 @@ main {
   position: relative;
 }
 
+.main-item.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main-picture h2 {
   font-size: 2rem;
 }
@@ -191,7 +197,7 @@ main {
 .first-picture {
   width: 100%;
   height: 100%;
-  background: url(bilder/converted/goteborg.webp) white;
+  background: url(img/cropped1.png) white;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -206,7 +212,6 @@ main {
 .main-item h2 {
   position: relative;
   text-align: center;
-  font-style: italic;
   font-size: 2rem;
 }
 
@@ -324,6 +329,7 @@ main {
 
 .main-item#company-info h2{
   font-family: 'Dosis';
+  font-size: 3rem;
 }
 
 .main-item#company-info .info-container{
@@ -396,6 +402,14 @@ main {
   box-shadow: 0 0 20px #FFAAE3;
 }
 
+.merch-title {
+  text-align: center;
+  width: 100%;
+  font-size: 3rem;
+  font-family: 'Dosis';
+  padding-top: 5%;
+}
+
 .gallery-container {
   margin: 5% 0 5% 0;
   width: 100%;
@@ -417,6 +431,24 @@ main {
   margin: 1rem;
   border-radius: 50%;
   height: 31vw;
+}
+
+.gallery-item.first {
+  background: url(/img/laddarelight.png);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.gallery-item.second {
+  background: url(/img/takeaway-muggar-lclogga.png);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.gallery-item.third {
+  background: url(/img/mobilhållare-till-bil.png);
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 footer {

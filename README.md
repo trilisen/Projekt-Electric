@@ -1,6 +1,4 @@
-# The Electric Light Cycle
-
-### "Insert Slogan Here"
+# Project Electric - The Light Cycle
 
 <img src="https://media.giphy.com/media/Ui46FI4nHWyD6/giphy.gif" width="75%">
 

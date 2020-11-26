@@ -132,38 +132,10 @@ main {
   flex-wrap: wrap;
 }
 
-.main-item {
+
+.main-picture, .colors-of-bike{
   width: 100%;
-  height: 50vw;
-  background: white;
-}
-
-.main-item h2 {
-  position: relative;
-  text-align: center;
-  font-style: italic;
-  font-size: 2rem;
-}
-
-.main-item.first {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.main-item form input[type=email]{
-  border: inset var(--main-color) .5px;
-}
-
-.main-item form input[type=submit]{
-  border: inset var(--main-color) .5px;
-}
-
-.main-picture,
-.colors-of-bike {
-  width: 100%;
-  height: 50vw;
+  height: 45vw;
 }
 
 .colors-of-bike {
@@ -176,7 +148,7 @@ main {
 
 .main-picture.first {
   margin-top: 90px;
-  height: 50vw;
+  height: 45vw;
   position: relative;
   display: flex;
   align-items: center;
@@ -229,7 +201,49 @@ main {
   background-size: cover;
 }
 
+.main-item {
+  width: 100%;
+  height: 50vw;
+  background: white;
+}
+
+.main-item h2 {
+  position: relative;
+  text-align: center;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.main-item.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-item .mobile {
+  display: none;
+}
+
+.main-item.first img {
+  width: 20%;
+  height: 40%;
+}
+
+.main-item.first form {
+  margin-left: 10%;
+}
+
+.main-item form input[type=email]{
+  border: inset var(--main-color) .5px;
+}
+
+.main-item form input[type=submit]{
+  border: inset var(--main-color) .5px;
+}
+
 .main-picture.icons {
+  width: 100%;
+  height: 50vw;
   background: url(bilder/converted/lightcycleoverlay.webp) white;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -335,6 +349,10 @@ main {
   padding-top: 3%;
   position: absolute;
   top: 0;
+}
+
+.main-picture.cta form label {
+  color: white;
 }
 
 .main-picture.cta form input[type=email]{

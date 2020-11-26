@@ -53,6 +53,39 @@
   .menu-container .link-container {
     justify-content: space-evenly;
   }
+  .main-item.first form{
+    display: flex;
+    flex-direction: column;
+  }
+  .main-item.first form input[type=email]{
+    width: 80%;
+  }
+  .main-item.first form input[type=submit]{
+    width: 30%;
+  }
+  .main-item.first .mobile {
+    display: block;
+  }
+  .main-picture.cta {
+    position: relative;
+  }
+  .main-picture.cta form {
+    margin-left: 10%;
+    top: 100%;
+  }
+  .main-picture.cta form label {
+    color: black;
+  }
+  .main-picture.cta form input[type=email]{
+    width: 50%;
+    border: inset var(--main-color) .5px;
+    box-shadow: none;
+  }
+  .main-picture.cta form input[type=submit]{
+    width: 20%;
+    border: inset var(--main-color) .5px;
+    box-shadow: none;
+  }
   .gallery-container {
     grid-template-columns: repeat(1, 1fr);
     margin: 30% 0 30% 0;

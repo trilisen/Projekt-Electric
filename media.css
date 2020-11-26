@@ -35,6 +35,9 @@
   .main-item#company-info {
     height: auto;
   }
+  .main-item#company-info .info-container {
+    font-size: 1rem;
+  }
   .icon-descriptions .icon img {
     width: 15vw;
     height: 15vw;
@@ -63,6 +66,10 @@
   }
   .menu-container .link-container {
     justify-content: space-evenly;
+  }
+  .arrow {
+    width: 10%;
+    height: 40%;
   }
   .main-item.first form{
     display: flex;
@@ -104,7 +111,8 @@
   }
   .gallery-container {
     grid-template-columns: repeat(1, 1fr);
-    margin: 30% 0 30% 0;
+    margin: 30% 0 10% 0;
+    align-items: center;
   }
   .gallery-item {
     height: 90vw;

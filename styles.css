@@ -331,7 +331,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: inherit;
+  height: 80%;
+  font-size: 1.5rem;
 }
 
 .icon-descriptions {

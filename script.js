@@ -1,5 +1,5 @@
 function changeColor(color) {
-    const colorsOfBike = document.querySelectorAll(".on");
+    const colorsOfBike = document.querySelectorAll(".colors-of-bike .on");
     colorsOfBike.forEach(color => {
         color.classList.remove("on");
     });
@@ -13,6 +13,7 @@ function hamburgerToggle() {
 }
 
 function changePage() {
+    console.log("hej");
     const leftArrow = document.querySelector('.arrow.left');
     const rightArrow = document.querySelector('.arrow.right');
     let page = 0;
